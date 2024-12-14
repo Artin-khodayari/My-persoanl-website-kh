@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColumnD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #ff6f00, #ff9a00);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .welcome-container {
+            background-color: rgba(255, 255, 0, 0.4);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 5);
+            text-align: center;
+            max-width: 500px;
+            margin: 20px;
+        }
+        .welcome-container h1 {
+            color: #ff6f00;
+            margin-bottom: 20px;
+        }
+        .welcome-container p {
+            color: #666;
+            margin-bottom: 40px;
+        }
+        .welcome-container button {
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .welcome-container button:hover {
+            background-color: #ff00008a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome!</h1>
+    </header>
+    <div class="welcome-container">
+        <h1>I'm Mr. ColumnD</h1>
+        <p>Click the button below to learn more about me.</p>
+        <button onclick="window.location.href='about_me.html'">About me!</button>
+    </div>
+</body>
+</html>
